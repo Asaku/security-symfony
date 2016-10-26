@@ -1,5 +1,5 @@
 {
-    "name": "asaku/symfony/security",
+    "name": "asaku/symfony-security",
     "description": "Bundle symfony for check and control the security",
     "keywords": ["bundle", "symfony", "security"],
     "homepage": "https://github.com/Asaku/symfony-asaku-security",
