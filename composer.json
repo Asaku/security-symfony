@@ -1,0 +1,29 @@
+{
+    "name": "symfony-asaku-security",
+    "description": "Bundle symfony for check and control the security",
+    "keywords": ["bundle", "symfony", "security"],
+    "homepage": "https://github.com/Asaku/symfony-asaku-security",
+    "type": "symfony-bundle",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Mehdi Aberkane",
+            "email": "mehdi@mehdi-aberkane.fr",
+            "homepage": "http://www.mehdi-aberkane.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.6",
+        "symfony/symfony": "2.8.*",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2"
+    },
+    "suggest": {
+        "friendsofsymfony/user-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Asaku\\Security": "" }
+    },
+    "target-dir": "Asaku/AsakuSecurity"
+}
