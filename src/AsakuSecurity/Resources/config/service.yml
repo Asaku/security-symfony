@@ -1,0 +1,3 @@
+services:
+    asaku.check.code:
+    class: Asaku\CheckCode

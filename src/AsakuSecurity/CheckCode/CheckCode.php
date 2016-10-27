@@ -9,4 +9,8 @@ namespace Asaku\CheckCode;
  */
 class CheckCode
 {
+    public function __construct()
+    {
+        var_dump('test');
+    }
 }
